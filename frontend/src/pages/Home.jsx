@@ -29,11 +29,6 @@ const Navbar = () => {
     );
   };
 
-  // const section=()=>{
-  //   return(
-
-  //   )
-  // }
 
   const Footer = () => {
     return (
@@ -74,7 +69,7 @@ const Home = () => {
   return (
     <div className="bg-black min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-16">
+      <main className="flex-grow pt-3">
         <BackgroundPaths title="Placemate" />
       </main>
       <Footer />
